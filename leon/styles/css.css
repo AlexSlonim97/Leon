@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: UniSans;
+    src: url("../fonts/Uni Sans Heavy Italic.otf");
+}
+
+body {
+    font-family: UniSans, sans-serif;
+}
+
+/*main------------------------------------------------------------*/
+
+.container {
+    max-width: 1920px;
+    background-image: url("../images/bg 1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wheel {
+    font-size: 32px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+.prizes {
+    width: 503px;
+    height: 56px;
+    background-color: #C6217D;
+    transform: skew(-10deg);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ball-1 {
+    position: absolute;
+    top: 56px;
+    left: 193px;
+}
+
+.ball-2 {
+    position: absolute;
+    right: 0;
+    bottom: 141px;
+}
+
+.ball-2 img {
+    max-width: 100%;
+}
+
+
+.girl {
+    position: absolute;
+    left: 88px;
+    bottom: -5px;
+    z-index: 1;
+}
+
+.girl img {
+    max-width: 100%;
+}
+
+
+.koleso {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.koleso img {
+    max-width: 100%;
+}
+
+/*popup-----------------------------------------------*/
+#popup-1 {
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index: 99;
+    display: none;
+}
+
+#popup-1 img {
+    position: fixed;
+    left: calc(50% - 300px);
+    top: calc(50% - 300px);
+    max-width: 100%;
+}
+#popup-2 {
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index: 99;
+    display: none;
+}
+
+#popup-2 img {
+    position: fixed;
+    left: calc(50% - 300px);
+    top: calc(50% - 300px);
+    max-width: 100%;
+}
+
+
+

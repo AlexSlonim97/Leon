@@ -1,0 +1,63 @@
+@media screen and (max-width: 1441px){
+    .container {
+        max-width: 1440px;
+    }
+
+    .ball-1 {
+        top: -87px;
+        left: -99px;
+    }
+
+    .ball-2 {
+        right: -136px;
+        bottom: -167px;
+    }
+}
+
+
+    @media screen and (max-width: 768px){
+    .wheel {
+        font-size: 24px;
+    }
+    .prizes {
+        width: 340px;
+        height: 40px;
+        font-size: 26px;
+    }
+        .girl {
+            left: -6px;
+            bottom: -51px;
+        }
+
+        #popup-2 img {
+            left: calc(50% - 200px);
+            top: calc(50% - 200px);
+        }
+}
+
+@media screen and (max-width: 425px){
+    #popup-1 img {
+        left: calc(50% - 200px);
+        top: calc(50% - 200px);
+    }
+}
+@media screen and (max-width: 375px){
+    .girl {
+        left: -6px;
+        bottom: -51px;
+    }
+    .ball-2 {
+        max-width: 200px;
+        z-index: 2;
+        right: -51px;
+        bottom: -125px;
+    }
+    .container {
+        height: 730px;
+    }
+    #popup-2 img {
+        left: calc(50% - 173px);
+        top: calc(50% - 96px);
+    }
+}
+
